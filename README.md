@@ -42,7 +42,7 @@ A modern, lightweight URL shortening application that converts lengthy URLs into
 ### Setup
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/url-shortener.git
+git clone https://github.com/rohitsolanki01/ShortIt.git
 cd url-shortener
 
 text
