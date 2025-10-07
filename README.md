@@ -201,9 +201,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/rohitsolanki01)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/rohit-solanki-495860348/)
-- Portfolio: [yourportfolio.com](https://portfoliyo-me-3439.vercel.app/)
+- GitHub: [@rohitsolanki01](https://github.com/rohitsolanki01)
+- LinkedIn: [rohit-solanki-495860348](https://www.linkedin.com/in/rohit-solanki-495860348/)
+- Portfolio: [Rohit Solanki](https://portfoliyo-me-3439.vercel.app/)
 
 ## 🙏 Acknowledgments
 
