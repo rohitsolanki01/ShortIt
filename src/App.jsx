@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState('');
   const [copied, setCopied] = useState(false);
 
-  // Your existing logic remains exactly the same
+
   const handleShorten = async (e) => {
     e.preventDefault();
     
@@ -83,11 +83,11 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
-      {/* Main Card */}
+   
       <div className="w-full max-w-2xl">
         <div className="bg-white/10 backdrop-blur-lg rounded-3xl shadow-2xl border border-white/20 p-8 md:p-12">
           
-          {/* Header Section */}
+    
           <div className="text-center mb-10">
             <div className="flex items-center justify-center gap-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center">
@@ -102,7 +102,6 @@ function App() {
             </p>
           </div>
 
-          {/* URL Input Form */}
           <form onSubmit={handleShorten} className="space-y-6">
             <div className="space-y-2">
               <label htmlFor="longUrl" className="block text-sm font-medium text-gray-300">
@@ -126,7 +125,7 @@ function App() {
               </div>
             </div>
 
-            {/* Error Message */}
+        
             {error && (
               <div className="bg-red-500/10 border border-red-400/50 text-red-200 px-4 py-3 rounded-xl flex items-center gap-2">
                 <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +135,7 @@ function App() {
               </div>
             )}
 
-            {/* Shorten Button */}
+   
             <button
               type="submit"
               disabled={loading}
@@ -161,7 +160,6 @@ function App() {
             </button>
           </form>
 
-          {/* Result Section */}
           {shortUrl && (
             <div className="mt-8 bg-gradient-to-r from-green-500/10 to-emerald-500/10 border border-green-400/20 rounded-2xl p-6 backdrop-blur-sm">
               <div className="flex items-center gap-2 mb-3">
@@ -212,7 +210,7 @@ function App() {
             </div>
           )}
 
-          {/* Features Grid */}
+      
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
